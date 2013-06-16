@@ -14,6 +14,7 @@ group :development, :test do
   gem 'guard-spork'
   gem 'childprocess'
   gem 'spork'
+  gem 'faker'
 end
 
 # Gems used only for assets and not required
