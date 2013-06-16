@@ -26,3 +26,17 @@ This is the template I use for Ruby on Rails applications. Feel free to clone th
 
         $ git add .
         $ git commit -m "Initial commit."
+
+Gems added:
+* bootstrap-sass
+* haml-rails
+* rspec-rails
+* guard-rspec
+* guard-spork
+* childprocess
+* spork
+* faker
+* capybara
+* rb-inotify
+* factory_girl_rails
+* pg
