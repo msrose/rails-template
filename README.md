@@ -1,5 +1,6 @@
 # Ruby on Rails Template: msrose
 This is the template I use for Ruby on Rails applications. Feel free to clone this repository and use the template in your own projects. Just follow these steps:
+
 1. Clone the repository:
 
   $ git clone git@github.com:msrose/rails_template.git new_project_name 
