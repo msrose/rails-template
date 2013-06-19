@@ -29,6 +29,7 @@ This is the template I use for Ruby on Rails applications. Feel free to clone th
 
 Gems added:
 * bootstrap-sass
+* strong_parameters
 * haml-rails
 * rspec-rails
 * guard-rspec
