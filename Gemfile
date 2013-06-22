@@ -16,6 +16,8 @@ group :development, :test do
   gem 'childprocess'
   gem 'spork'
   gem 'faker'
+  # To use debugger
+  # gem 'debugger'
 end
 
 # Gems used only for assets and not required
@@ -38,6 +40,3 @@ end
 group :production do
   gem 'pg'
 end
-
-# To use debugger
-# gem 'debugger'
