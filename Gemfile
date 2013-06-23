@@ -32,6 +32,7 @@ group :test do
   gem 'rb-inotify'
   gem 'libnotify'
   gem 'factory_girl_rails'
+  gem 'simplecov', :require => false
 end
 
 group :production do
