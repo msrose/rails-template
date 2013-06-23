@@ -3,13 +3,13 @@ This is the template I use for Ruby on Rails applications. Feel free to clone th
 
 1. Clone the repository:
 
-        $ git clone git@github.com:msrose/rails_template.git new_project_name 
+        $ git clone https://github.com/msrose/rails_template new_project_name
         $ cd new_project_name
 
 2. Destroy the current git files:
 
         $ rm -rf .git
-  
+
 3. Rename the project:
 
         $ ruby rename.rb new_project_name
