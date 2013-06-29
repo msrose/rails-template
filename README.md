@@ -10,13 +10,13 @@ This is the template I use for Ruby on Rails applications. Feel free to clone th
 
         $ rm -rf .git
 
-3. Rename the project:
-
-        $ ruby rename.rb new_project_name
-
-4. Initialize a new git repository:
+3. Initialize a new git repository:
 
         $ git init
+
+4. Rename the project (the name must be underscored, i.e. NewProjectName will not work):
+
+        $ ruby rename.rb new_project_name
 
 5. Run bundler without production gems:
 
@@ -27,7 +27,7 @@ This is the template I use for Ruby on Rails applications. Feel free to clone th
         $ git add .
         $ git commit -m "Initial commit."
 
-Gems added:
+##Gems added
 * bootstrap-sass
 * strong_parameters
 * haml-rails
