@@ -18,7 +18,10 @@ end
 module RailsTemplate
   class Application < Rails::Application
     config.generators do |g|
+      g.helper_specs false
+      g.view_specs false
       g.fixture_replacement :factory_girl, :dir => 'spec/factories'
+      g.assets false
     end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
