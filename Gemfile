@@ -4,12 +4,9 @@ gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
 gem 'strong_parameters'
 
-group :development do
-  gem 'haml-rails'
-end
-
 group :development, :test do
   gem 'sqlite3'
+  gem 'haml-rails'
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'guard-spork'
